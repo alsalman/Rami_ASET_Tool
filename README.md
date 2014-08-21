@@ -1,4 +1,4 @@
-Rami_ASET_Tool
+ASET
 ==============
 Android Sketching and Editing Tool (ASET) is an open source tool that
 allows volunteers to sketch objects (e.g., roads and streets) in an
