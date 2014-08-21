@@ -1,0 +1,68 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Select one of the query methods"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+                        <TableRow   android:paddingTop="10px" android:gravity="center">
+
+                            <Button
+                                android:id="@+id/button1_start"
+                                android:layout_width="150dp"
+                                android:layout_height="200dp"
+                                android:text="Query By sketch" />
+                             	 />
+
+                            <Button
+                                android:id="@+id/button2_start"
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:text="Query By voice"
+                                 />
+                        
+                         </TableRow>
+                         
+                        <TableRow
+                            android:layout_marginTop="20dip"
+                            android:gravity="center" >
+
+                            <Button
+                                android:id="@+id/button4_start"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Query by Text" 
+                                />
+
+                            <Button
+                                android:id="@+id/button3_start"
+                                android:layout_width="wrap_content"
+                                android:layout_height="160dp"
+                                android:text="Query By Wizard"
+                                 />
+                            
+                                                     
+                         </TableRow>
+					<TableRow
+					    	android:layout_marginTop="20dip"
+                            android:gravity="center" >
+                        
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mode:"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <Spinner
+                            android:id="@+id/spinner1_startActivity"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content" />
+
+             		</TableRow>
+     </TableLayout>

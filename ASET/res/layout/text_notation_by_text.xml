@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width  = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation   = "horizontal" >
+    
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow11x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <TextView
+                android:id="@+id/textView11x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Your Text: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/editText1xx"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:width="180dp" >
+
+                <requestFocus />
+            </EditText>
+            
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:id="@+id/tableRow4xx"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp" >
+
+        <ListView android:id="@+id/list_voice_suggests"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+            
+        </TableRow>
+        
+         
+         <TableRow
+            android:id="@+id/tableRow4xx"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp" >
+
+            <Button
+                android:id="@+id/button2x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK" />
+            
+        </TableRow>
+        
+    </TableLayout>
+</LinearLayout>

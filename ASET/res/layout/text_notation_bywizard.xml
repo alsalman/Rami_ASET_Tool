@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 2 columns -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/TextView01_wizard"
+            android:text="Find a:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/spinner1_wizard"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:minHeight="60dip" />
+
+        <TextView
+            android:id="@+id/textView1_wizard"
+            android:text="that:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+    <!-- edittext span 2 column -->
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+    </TableRow>
+
+    <!-- just draw a red line -->
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF0000" />
+
+    <!-- 3 columns -->
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+    </TableRow>
+
+    <!-- display this button in 3rd column via layout_column(zero based) -->
+
+
+    <!-- display this button in 2nd column via layout_column(zero based) -->
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/TextView03_wizard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qualitative Dimension: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/Spinner01_wizard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:minHeight="60dip" />
+    </TableRow>
+    
+     <TableRow
+        android:id="@+id/tableRow6x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/TextView03x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relation: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/Spinner01x_wizard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:minHeight="60dip" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow7x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/TextView03xx_wizard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refrenced Object:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/Spinner01xx_wizard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:minHeight="60dip" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/button1_wizard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</TableLayout>
